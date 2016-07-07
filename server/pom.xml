@@ -71,6 +71,16 @@
 						</environment>
 					</environments>
 					<includePackedArtifacts>false</includePackedArtifacts>
+					<dependency-resolution>
+					  <optionalDependencies>ignore</optionalDependencies>
+					</dependency-resolution>
+
+					<filter>
+					  <type>p2-installable-unit</type>
+					  <id>org.eclipse.team.core</id>
+					  <removeAll />
+					</filter>
+					
 				</configuration>
 			</plugin>
 			<plugin>
